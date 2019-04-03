@@ -17,11 +17,11 @@ print "Passed Argument is " + filename
 
 
 #argument check
-if len(sys.argv) < 2 | len(sys.argv) > 2:
+if len(sys.argv) < 2 :
 	print "ERROR!!"
 	print "Usage : ./foo argument"
 	exit()
-elif len(sys.argv) == 2:
+elif len(sys.argv) == 3:
 	print "\nStarting...\n"
 	time.sleep(1)
 #request the page and check if it exists
