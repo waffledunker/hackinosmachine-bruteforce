@@ -28,6 +28,10 @@ elif len(sys.argv) == 2:
 req = requests.get('http://localhost:8000/')
 print "\n Status Code : " + str(req.status_code)
 
+if req.status_code != 200:
+	print "Error! \n"
+	print "destination is not reachable!"
+	exit()
 #list of 1-100 numbers
 rand_numbers = [i for i in range(1,101)]
 
