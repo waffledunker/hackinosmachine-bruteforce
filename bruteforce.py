@@ -23,7 +23,7 @@ if len(sys.argv) < 2 | len(sys.argv) > 2:
 	exit()
 elif len(sys.argv) == 2:
 	print "\nStarting...\n"
-
+	time.sleep(1)
 #request the page and check if it exists
 req = requests.get('http://localhost:8000/')
 print "\n Status Code : " + str(req.status_code)
