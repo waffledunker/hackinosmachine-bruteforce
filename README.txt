@@ -1,6 +1,6 @@
-This is a bruteforce url directory finder on HackinOs machine that is vulnerable. 
+This is a bruteforce uri directory finder on HackinOs machine that is vulnerable. 
 
-It requires from user to find uploaded file by bruteforce.
+Machine requires from user to find uploaded file by bruteforce.Uploaded file name, basically hashed and placed to that hash value named directory.
 
 Your uploaded file will be in the directory of md5 hashed and random number added version of your filename.
 
